@@ -20,6 +20,13 @@ format:
     footer: "The Geometry of Machine Learning"
     toc: false
     self-contained: true
+  beamer:
+    aspectratio: 169
+    slide-number: true
+    toc: false
+    fig-align: center
+    fig-width: 7.5
+    fig-height: 4.5
 editor: visual
 execute:
   echo: false
@@ -269,11 +276,9 @@ You may ask only yes-or-no questions.
 
 Can you guess what I’m thinking of?
 
-##  {background-image="fig/scrooge.jpg" background-size="cover" background-position="center"}
+##  My word
 
-::: {style="position: absolute; bottom: 30px; right: 40px; color: white; font-size: 0.8em;"}
-The answer: Ebenezer Scrooge
-:::
+![](fig/scrooge.jpg){fig-alt="Ebenezer Scooge" width="90%" fig-align="center"}
 
 ## The Muppet version
 
@@ -354,7 +359,9 @@ But $\{0,1\}^N$ is nothing but corners.
 So basic math operations push us outside $\{0,1\}^N$. We'd prefer a space that supports both *meaning* and *math*.
 :::
 
-##  {background-image="fig/binary_cube_convex_hull.png" background-size="cover" background-position="center"}
+## Better
+
+![](fig/binary_cube_convex_hull.png){fig-alt="Ebenezer Scooge" width="90%" fig-align="center"}
 
 ## Scrooge in real-valued Muppet coordinates
 
